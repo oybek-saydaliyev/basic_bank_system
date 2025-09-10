@@ -6,3 +6,12 @@ spring:
     name: bank-system
 
 
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    generate-ddl: off

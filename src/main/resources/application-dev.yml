@@ -4,16 +4,6 @@ spring:
     password: 1234
     url: "jdbc:postgresql://localhost:5432/bank_system"
     driver-class-name: org.postgresql.Driver
-  flyway:
-    enabled: true
-    baseline-on-migrate: true
-
-  jpa:
-    show-sql: true
-    hibernate:
-      ddl-auto: none
-    generate-ddl: off
-
 
 
 jwt:
