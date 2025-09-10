@@ -11,8 +11,8 @@ spring:
   jpa:
     show-sql: true
     hibernate:
-      ddl-auto: update
-    generate-ddl: on
+      ddl-auto: none
+    generate-ddl: off
 
 
 
